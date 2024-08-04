@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 html,
 body,
 div,
@@ -93,7 +94,7 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 14px;
@@ -163,13 +164,48 @@ a:hover {
   max-width: auto;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
-  border-right: 1px solid hsl(210, 4%, 30%);
-  border-left: 1px solid hsl(210, 4%, 30%);
+  height: 100vh;
 }
 @media (max-width: 690px) {
   .container {
     padding: 0px 20px !important;
     text-align: center !important;
   }
+}
+
+button, input[type=submit], input[type=reset] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
 }/*# sourceMappingURL=global.css.map */

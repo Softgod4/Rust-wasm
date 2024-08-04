@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,71 @@
     <link rel="stylesheet" href="./style/main.css">
     <title>Todo App</title>
 </head>
-<body>
-    <div class="container">
 
+<body>
+    <div class="container flex justify-center align-center flex-col">
+        <article class="header flex flex-col">
+            <h1>Rust 🦀 and WebAssembly 🕸</h1>
+            <div class="actions flex flex-row">
+                <p>Todo by Softgod 📝</p>
+            </div>
+        </article>
+        <div class="todo">
+            <div id="rust-logo">
+                <img src="/image/rust-logo.png" alt="rust-logo">
+            </div>
+            <div class="tasks">
+                <h2>Tasks</h2>
+                <div class="tasks-list">
+                    <label class="tasks-list__item">
+                        <article class="flex align-center justify-center">
+                            <p>Todo #1</p>
+                        </article>
+                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M18 6L6 18M6 6l12 12" stroke="#B0B0B0" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg></button>
+                    </label>
+                    <label class="tasks-list__item">
+                        <article class="flex align-center justify-center">
+                            <p>Todo #2</p>
+                        </article>
+                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M18 6L6 18M6 6l12 12" stroke="#B0B0B0" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg></button>
+                    </label>
+                    <label class="tasks-list__item">
+                        <article class="flex align-center justify-center">
+                            <p>Todo #3</p>
+                        </article>
+                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M18 6L6 18M6 6l12 12" stroke="#B0B0B0" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg></button>
+                    </label>
+                    <label class="tasks-list__item">
+                        <article class="flex align-center justify-center">
+                            <p>Todo #4</p>
+                        </article>
+                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M18 6L6 18M6 6l12 12" stroke="#B0B0B0" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg></button>
+                    </label>
+                </div>
+            </div>
+            <div class="add-task flex justify-start align-center">
+                <input type="text" placeholder="todo name" id="input-task">
+                <button id="add-task">Add task</button>
+            </div>
+        </div>
     </div>
 </body>
-    <script type="module">
-        import init, { greet } from "./pkg/hello_wasm.js";
-        await init();
-        greet();
-    </script>
+<script type="module">
+    import init, { greet } from "./pkg/hello_wasm.js";
+    await init();
+    greet();
+</script>
+
 </html>
