@@ -25,7 +25,6 @@ Be sure to check out [other `wasm-pack` tutorials online][tutorials] for other t
   - [🔬 Test in Headless Browsers](#-test-in-headless-browsers-with-wasm-pack-test)
   - [🎁 Publish to NPM](#-publish-to-npm-with-wasm-pack-publish)
 - [🔋 Batteries Included](#-batteries-included)
-- [🖼️ Screenshots](#-screenshots)
 - [📝 License](#-license)
 - [🤝 Contribution](#-contribution)
 
@@ -63,11 +62,6 @@ wasm-pack publish
 * [`wasm-bindgen`](https://github.com/rustwasm/wasm-bindgen) for communicating between WebAssembly and JavaScript.
 * [`console_error_panic_hook`](https://github.com/rustwasm/console_error_panic_hook) for logging panic messages to the developer console.
 * `LICENSE-APACHE` and `LICENSE-MIT`: most Rust projects are licensed this way, so these are included for you.
-
-## 🖼️ Screenshots
-
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
 
 ## 📝 License
 
