@@ -1,7 +1,3 @@
-Here's a `README.md` for your Rust-WASM Todo List project. It includes sections for easy navigation, relevant emojis, and placeholders for images:
-
----
-
 # 🦀🕸 Rust-WASM Todo List
 
 <img src="image/screenshot.png">
