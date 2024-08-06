@@ -1,8 +1,6 @@
 mod utils;
 mod task_inner;
 
-use std::fmt::Error;
-
 use once_cell::sync::Lazy;
 use regex::Regex;
 use wasm_bindgen::prelude::*;
