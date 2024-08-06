@@ -7,6 +7,7 @@
   width: auto;
   text-align: start;
   margin: 16px;
+  z-index: 9;
   border: 1px solid hsl(210, 4%, 30%);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -42,7 +43,13 @@
   border: 1px solid hsl(210, 4%, 30%);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.todo .tasks h2 {
+.todo .tasks {
+  width: 100%;
+}
+.todo .tasks-engine {
+  margin-top: 12px;
+}
+.todo .tasks-engine h2 {
   color: #667085;
   text-align: start;
   font-size: 12px;
@@ -50,6 +57,16 @@
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+}
+.todo .tasks-engine button {
+  color: #667085;
+  text-align: start;
+  font-size: 12px;
+  font-weight: 300;
+  cursor: pointer;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  text-decoration-color: #0d7261;
 }
 .todo .tasks-list__item {
   background-color: #f5f6f7;
