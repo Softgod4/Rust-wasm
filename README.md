@@ -4,6 +4,8 @@ Here's a `README.md` for your Rust-WASM Todo List project. It includes sections 
 
 # 🦀🕸 Rust-WASM Todo List
 
+<img src="image/screenshot.png">
+
 ## About
 <sub>Built with 🦀🕸 by [The Rust and WebAssembly Working Group](https://rustwasm.github.io/)</sub>
 
