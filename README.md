@@ -3,7 +3,6 @@
 <img src="image/screenshot.png">
 
 ## About
-<sub>Built with 🦀🕸 by [The Rust and WebAssembly Working Group](https://rustwasm.github.io/)</sub>
 
 [**📚 Read this template tutorial! 📚**][template-docs]
 
