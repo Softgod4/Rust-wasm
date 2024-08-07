@@ -1,6 +1,6 @@
 # 🦀🕸 Rust-WASM Todo List
 
-<img src="image/rust-logo.png">
+<img src="image/rust-logo.png" width="50%" />
 
 ## About
 
@@ -19,6 +19,7 @@ Be sure to check out [other `wasm-pack` tutorials online][tutorials] for other t
   - [🛠️ Build with `wasm-pack build`](#️-build-with-wasm-pack-build)
   - [🔬 Test in Headless Browsers](#-test-in-headless-browsers-with-wasm-pack-test)
   - [🎁 Publish to NPM](#-publish-to-npm-with-wasm-pack-publish)
+  - [Screenshot](#-screen)
 - [🔋 Batteries Included](#-batteries-included)
 - [📝 License](#-license)
 - [🤝 Contribution](#-contribution)
@@ -74,3 +75,7 @@ Unless you explicitly state otherwise, any contribution intentionally submitted 
 ---
 
 This README provides a clear structure, helpful emojis, and all necessary information about the project, including sections for usage, building, testing, publishing, and contribution guidelines. It also includes placeholders for screenshots to visually represent your project.
+
+# Screenshot 📸
+
+<img src="image/screenshot.png" width="90%">
