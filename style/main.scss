@@ -1,18 +1,19 @@
+@import "colors";
+
 .header {
     position: absolute;
     left: 0;
     top: 0;
-    background: #ffffff;
+    background: $white;
     padding: 42px 28px;
-    width: auto;
     text-align: start;
     margin: 16px;
     z-index: 9;
-    border: 1px solid hsl(210, 4%, 30%);
+    border: 1px solid $border-second;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
     &>h1 {
-        color: #1D2939;
+        color: $text-main;
         font-weight: bold;
         font-size: 28px;
         margin-bottom: 8px;
@@ -23,9 +24,8 @@
         justify-content: end;
 
         p {
-            text-align: center;
             font-size: 14px;
-            font-weight: 300;
+
             color: #98A2B3;
             cursor: pointer;
 
@@ -37,20 +37,14 @@
 }
 
 .todo {
-    background: #ffffff;
-
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
+    background: $white;
 
     border-radius: 4px;
     padding: 22px 28px;
-    border: 1px solid hsl(210, 4%, 30%);
+    border: 1px solid $border-second;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
     .tasks {
-        width: 100%;
 
         &-engine {
 
@@ -58,9 +52,8 @@
 
             h2 {
                 color: #667085;
-                text-align: start;
                 font-size: 12px;
-                font-weight: 300;
+
                 user-select: none;
             }
 
@@ -68,7 +61,7 @@
                 color: #667085;
                 text-align: start;
                 font-size: 12px;
-                font-weight: 300;
+
                 cursor: pointer;
                 text-decoration: underline dotted;
                 text-decoration-color: #0d7261;
@@ -82,7 +75,7 @@
                 padding: 8px 9px;
                 border-radius: 4px;
                 margin: 16px 0px;
-                border: 1px solid #dfe1e5;
+                border: 1px solid $border-main;
 
                 display: flex;
                 justify-content: space-between;
@@ -90,8 +83,8 @@
                 position: relative;
 
                 font-size: 14px;
-                font-weight: 300;
-                color: #1D2939;
+
+                color: $text-main;
 
                 cursor: pointer;
                 transition: all 0.12s;
@@ -100,7 +93,7 @@
                     background-color: #0d7261;
 
                     p {
-                        color: white;
+                        color: $white;
                     }
                 }
 
@@ -129,17 +122,16 @@
     }
 
     .add-task {
-        width: 100%;
         margin-top: 16px;
 
         button {
             width: 50%;
             height: 34px;
-            background: #1D2939;
-            color: white;
+            background: $text-main;
+            color: $white;
             padding: 8px 12px;
 
-            border: 1px solid #dfe1e5;
+            border: 1px solid $border-main;
             border-left: none;
             border-top-right-radius: 4px;
             border-bottom-right-radius: 4px;
@@ -150,7 +142,7 @@
             height: 34px;
             padding: 8px 12px;
 
-            border: 1px solid #dfe1e5;
+            border: 1px solid $border-main;
             border-right: none;
             border-top-left-radius: 4px;
             border-bottom-left-radius: 4px;
@@ -159,9 +151,6 @@
 }
 
 #rust-logo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
     transition: all 0.5s;
     position: relative;
     left: 0;
@@ -179,6 +168,5 @@
 .not-valid {
     margin-top: 12px;
     font-size: 16px;
-    font-weight: 300;
-    color: #1D2939;
+    color: $text-main;
 }

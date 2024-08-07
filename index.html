@@ -14,17 +14,17 @@
         <article class="header flex flex-col">
             <h1>Rust 🦀 and WebAssembly 🕸</h1>
             <div class="actions flex flex-row">
-                <p>Todo by Softgod 📝</p>
+                <p class="text-center">Todo by Softgod 📝</p>
             </div>
         </article>
-        <div class="todo">
-            <div id="rust-logo">
+        <div class="todo flex flex-col justify-center align-start">
+            <div id="rust-logo" class="w-100 flex justify-center align-center">
                 <img src="/image/rust-logo.png" alt="rust-logo">
             </div>
-            <div class="tasks">
+            <div class="tasks w-100">
                 <article class="tasks-engine flex justify-between align-center">
-                    <h2>Tasks</h2>
-                    <button id="remove-all">Remove first task</button>
+                    <h2 class="text-start">Tasks</h2>
+                    <button class="text-start" id="remove-all">Remove first task</button>
                 </article>
                 <div class="tasks-list">
                     <label class="tasks-list__item">
@@ -67,7 +67,7 @@
             </div>
             <div class="add-task flex justify-start align-center">
                 <input type="text" placeholder="todo name" id="input-task">
-                <button id="add-task">Add task</button>
+                <button id="add-task" class="w-100">Add task</button>
             </div>
         </div>
     </div>

@@ -96,7 +96,7 @@ html {
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14px;
   background: #252627;
 }
@@ -173,7 +173,9 @@ a:hover {
   }
 }
 
-button, input[type=submit], input[type=reset] {
+button,
+input[type=submit],
+input[type=reset] {
   background: none;
   color: inherit;
   border: none;
@@ -202,10 +204,26 @@ button, input[type=submit], input[type=reset] {
   align-items: center;
 }
 
+.align-start {
+  align-items: start;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .flex-row {
   flex-direction: row;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-100 {
+  width: 100%;
 }/*# sourceMappingURL=global.css.map */
