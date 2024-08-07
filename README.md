@@ -1,6 +1,6 @@
 # 🦀🕸 Rust-WASM Todo List
 
-<img src="image/screenshot.png">
+<img src="image/rust-logo.png">
 
 ## About
 
